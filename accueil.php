@@ -14,7 +14,7 @@ $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); // on récupère le début d
 if ($login == "admin" && $mdp == "azerty"){
     header("Location: http://$host$uri/index.html");
 } else {
-    header("Location: http://$host$uri/login.html");
+    header("Location: http://$host$uri/profil.html");
 }
 ?>
 
